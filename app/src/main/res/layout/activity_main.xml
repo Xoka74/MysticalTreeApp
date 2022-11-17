@@ -7,27 +7,15 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/picture_name"
+        android:id="@+id/textView"
         android:layout_width="225dp"
         android:layout_height="42dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.564"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="406dp"
-        android:layout_height="607dp"
-        android:layout_marginTop="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/picture_name"
-        app:layout_constraintVertical_bias="0.14"
-        app:srcCompat="@drawable/bunny_girl" />
+        app:layout_constraintVertical_bias="0.481" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
